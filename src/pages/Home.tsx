@@ -7,7 +7,7 @@ export default function Home() {
       <section className="hero">
         <div className="container">
           <div className="hero-content">
-            <h1 className="hero-title">Hi, I'm a Rocco Ali</h1>
+            <h1 className="hero-title">Hi, I'm Rocco Ali</h1>
             <p className="hero-subtitle">
               I create beautiful, functional web applications using modern technologies
             </p>
