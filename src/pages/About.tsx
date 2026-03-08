@@ -22,7 +22,7 @@ export default function About() {
                 I am a new grad for York University with a degree in Information Technology. During my time at university, I developed a strong foundation in algorithms, data structures, and software engineering principles. I also had the opportunity to work on several projects that allowed me to apply my skills in real-world scenarios.
               </p>
               <p>
-                Outside of coding, I enjoy contributing to open-source projects, writing technical blogs, and mentoring junior developers. I'm always open to collaborating on interesting projects and solving meaningful problems.
+                 I'm always open to collaborating on interesting projects and solving meaningful problems.
               </p>
             </div>
 
