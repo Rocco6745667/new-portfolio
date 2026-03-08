@@ -14,84 +14,75 @@ interface Project {
 const projects: Project[] = [
   {
     id: 1,
-    title: 'Analytics Dashboard',
-    description: 'Real-time data visualization dashboard with interactive charts and metrics tracking.',
-    image: '📊',
-    tags: ['React', 'D3.js', 'Node.js', 'MongoDB'],
+    title: 'Calendar App',
+    description: 'Feature-rich calendar application with event scheduling, reminders, and synchronization across devices.',
+    image: '📅',
+    tags: ['React', 'TypeScript', 'Firebase', 'Tailwind CSS'],
     link: '#',
     category: 'fullstack'
   },
   {
     id: 2,
-    title: 'E-Commerce Platform',
-    description: 'Full-featured e-commerce solution with product catalog, cart, and Stripe payment integration.',
-    image: '🛒',
-    tags: ['React', 'Express', 'PostgreSQL', 'Stripe'],
+    title: 'Gold Rush',
+    description: 'This game is called Gold Rush and it is a 2D platformer game where the player has to collect gold and to avoid the enemies that are in their path in order to beat the final boss and get the treasure.',
+    image: '🚀',
+    tags: ['JavaScript', 'Game Physics'],
     link: '#',
-    category: 'fullstack'
+    category: 'game'
   },
   {
     id: 3,
-    title: 'Chat Application',
-    description: 'Real-time messaging app with WebSocket support and user authentication.',
-    image: '💬',
-    tags: ['React', 'Socket.io', 'Node.js', 'MongoDB'],
+    title: '2048',
+    description: 'Engaging version of the popular 2048 puzzle game with smooth animations and responsive design.',
+    image: '🎮',
+    tags: ['React', 'Phaser', 'WebGL'],
+    link: '#',
+    category: 'game'
+  },
+  {
+    id: 4,
+    title: 'LeetCode Daily Challenges',
+    description: 'A sampling of questions from the LeetCode daily challenges using Python',
+    image: '💻',
+    tags: ['Python'],
     link: '#',
     category: 'fullstack'
   },
   {
-    id: 4,
-    title: 'Weather App',
-    description: 'Beautiful weather application with location-based forecasts and weather alerts.',
-    image: '🌤️',
-    tags: ['React', 'TypeScript', 'REST API', 'Tailwind'],
-    link: '#',
-    category: 'frontend'
-  },
-  {
     id: 5,
-    title: 'Task Manager',
-    description: 'Collaborative task management tool with real-time updates and team features.',
-    image: '✓',
-    tags: ['React', 'Firebase', 'Redux', 'Material-UI'],
+    title: 'E-Commerce Store',
+    description: 'Full-featured online shopping platform with product catalog, user authentication, and Stripe payments.',
+    image: '🛒',
+    tags: ['React', 'Express', 'PostgreSQL', 'Stripe API'],
     link: '#',
-    category: 'frontend'
+    category: 'fullstack'
   },
   {
     id: 6,
-    title: 'Blog CMS',
-    description: 'Headless CMS for managing blog content with Markdown support and SEO optimization.',
-    image: '📝',
-    tags: ['Next.js', 'Node.js', 'PostgreSQL', 'MDX'],
+    title: 'Data Analytics Dashboard',
+    description: 'This assignment combines web development with an in-depth evaluation of ChatGPT’s efficiency across various domains..',
+    image: '📊',
+    tags: ['React', 'D3.js', 'Chart.js', 'Node.js', 'MongoDB'],
     link: '#',
     category: 'fullstack'
   },
   {
     id: 7,
-    title: 'API Gateway',
-    description: 'Scalable API gateway with rate limiting, authentication, and request routing.',
-    image: '🔌',
-    tags: ['Node.js', 'Express', 'Redis', 'JWT'],
+    title: 'Developer Portfolio',
+    description: 'Modern responsive portfolio website showcasing projects, skills, and work experience with smooth animations.',
+    image: '🎨',
+    tags: ['React', 'TypeScript', 'Vite', 'CSS3'],
     link: '#',
-    category: 'backend'
+    category: 'frontend'
   },
   {
     id: 8,
-    title: 'Portfolio Generator',
-    description: 'Tool to generate beautiful portfolio websites with customizable templates.',
+    title: ' Family Guy Epic Adventure Remastered',
+    description: 'A DATT 2335 Project based on Family Guy’s Season 2 Episode 18 E. Peterbus Unum. The game is also a loose remaster of an old video game I created using pygame in my Grade 11 ICS3U, Introduction to Computer Science course.',
     image: '🎨',
-    tags: ['React', 'Next.js', 'Tailwind', 'Deployment'],
+    tags: ['C#', 'Unity'],
     link: '#',
-    category: 'fullstack'
-  },
-  {
-    id: 9,
-    title: 'Video Streaming',
-    description: 'Video streaming platform with adaptive bitrate and progressive download.',
-    image: '🎥',
-    tags: ['React', 'ffmpeg', 'Node.js', 'AWS S3'],
-    link: '#',
-    category: 'fullstack'
+    category: 'frontend'
   }
 ]
 
@@ -102,7 +93,7 @@ export default function Projects() {
     ? projects 
     : projects.filter(p => p.category === selectedCategory)
 
-  const categories = ['all', 'frontend', 'backend', 'fullstack']
+  const categories = ['all', 'frontend', 'fullstack', 'game']
 
   return (
     <div className="projects">
