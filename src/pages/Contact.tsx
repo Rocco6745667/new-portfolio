@@ -73,14 +73,6 @@ export default function Contact() {
                 </div>
 
                 <div className="info-item">
-                  <div className="info-icon">📱</div>
-                  <div className="info-content">
-                    <h3>Phone</h3>
-                    <p><a href="tel:+16475540424">+1 (647) 554-0424</a></p>
-                  </div>
-                </div>
-
-                <div className="info-item">
                   <div className="info-icon">📍</div>
                   <div className="info-content">
                     <h3>Location</h3>
