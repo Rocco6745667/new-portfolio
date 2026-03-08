@@ -79,8 +79,17 @@ const projects: Project[] = [
     id: 8,
     title: ' Family Guy Epic Adventure Remastered',
     description: 'A DATT 2335 Project based on Family Guy’s Season 2 Episode 18 E. Peterbus Unum. The game is also a loose remaster of an old video game I created using pygame in my Grade 11 ICS3U, Introduction to Computer Science course.',
-    image: '🎨',
+    image: '🎮',
     tags: ['C#', 'Unity'],
+    link: '#',
+    category: 'game'
+  },
+    {
+    id: 8,
+    title: ' Creating a Catcher Game',
+    description: 'This is a project based on DATT 2400 using p5.js',
+    image: '🎮',
+    tags: ['JavaScript', 'Game Physics'],
     link: '#',
     category: 'game'
   }
