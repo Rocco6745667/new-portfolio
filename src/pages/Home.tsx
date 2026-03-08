@@ -52,33 +52,30 @@ export default function Home() {
           <h2 className="section-title text-center">Featured Projects</h2>
           <div className="projects-grid">
             <div className="project-card">
-              <div className="project-image">📊</div>
-              <h3>Analytics Dashboard</h3>
-              <p>Real-time data visualization dashboard built with React and D3.js</p>
+              <div className="project-image">📅</div>
+              <h3>Calendar App</h3>
+              <p>Feature-rich calendar application with event scheduling, reminders, and synchronization across devices.</p>
               <div className="project-tags">
                 <span className="tag">React</span>
-                <span className="tag">D3.js</span>
-                <span className="tag">Node.js</span>
-              </div>
-            </div>
-            <div className="project-card">
-              <div className="project-image">🛒</div>
-              <h3>E-Commerce Platform</h3>
-              <p>Full-stack e-commerce solution with payment integration</p>
-              <div className="project-tags">
-                <span className="tag">React</span>
-                <span className="tag">Express</span>
-                <span className="tag">Stripe</span>
-              </div>
-            </div>
-            <div className="project-card">
-              <div className="project-image">💬</div>
-              <h3>Chat Application</h3>
-              <p>Real-time chat app with WebSocket and user authentication</p>
-              <div className="project-tags">
-                <span className="tag">Socket.io</span>
-                <span className="tag">React</span>
+                <span className="tag">TypeScript</span>
                 <span className="tag">MongoDB</span>
+              </div>
+            </div>
+            <div className="project-card">
+              <div className="project-image">🚀</div>
+              <h3>Gold Rush</h3>
+              <p>This game is called Gold Rush and it is a 2D platformer game where the player has to collect gold and to avoid the enemies that are in their path in order to beat the final boss and get the treasure.</p>
+              <div className="project-tags">
+                <span className="tag">JavaScript</span>
+                <span className="tag">Game Physics</span>
+              </div>
+            </div>
+            <div className="project-card">
+              <div className="project-image">💻</div>
+              <h3>LeetCode Daily Challenges</h3>
+              <p>A sampling of questions from the LeetCode daily challenges using Python</p>
+              <div className="project-tags">
+                <span className="tag">Python</span>
               </div>
             </div>
           </div>

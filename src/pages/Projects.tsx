@@ -82,7 +82,7 @@ const projects: Project[] = [
     image: '🎨',
     tags: ['C#', 'Unity'],
     link: '#',
-    category: 'frontend'
+    category: 'game'
   }
 ]
 
