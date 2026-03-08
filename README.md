@@ -67,55 +67,6 @@ src/
 └── index.css
 ```
 
-## Customization
-
-### Update Personal Information
-
-Edit the content in each page component:
-- `src/pages/Home.tsx` - Hero section and featured content
-- `src/pages/About.tsx` - Bio, skills, and experience
-- `src/pages/Projects.tsx` - Project portfolio
-- `src/pages/Contact.tsx` - Contact information
-
-### Styling
-
-The portfolio uses CSS with a custom color scheme defined in `src/index.css`:
-- Primary: `#667eea` (Purple)
-- Secondary: `#764ba2` (Dark Purple)
-- Accent: `#fbbf24` (Amber)
-
-### Add Your Projects
-
-Edit the `projects` array in `src/pages/Projects.tsx` to add your own projects.
-
-### Connect Social Media
-
-Update the social links in:
-- `src/components/Footer.tsx`
-- `src/pages/Contact.tsx`
-
-## Deployment
-
-### Netlify
-
-1. Push your repository to GitHub
-2. Connect to Netlify
-3. Set build command: `npm run build`
-4. Set publish directory: `dist`
-
-### Vercel
-
-1. Push your repository to GitHub
-2. Import project in Vercel
-3. Automatic deployment on push
-
-### Traditional Hosting
-
-```bash
-npm run build
-# Upload the 'dist' folder to your hosting provider
-```
-
 ## Technologies Used
 
 - **React 18** - UI library
