@@ -16,10 +16,10 @@ export default function About() {
             <div className="about-text">
               <h2>Who I Am</h2>
               <p>
-                I'm a full-stack software developer with a passion for creating elegant solutions to complex problems. With over 5 years of experience in web development, I've had the privilege of working with talented teams on diverse projects ranging from startups to enterprise applications.
+                I'm a full-stack software developer with a passion for creating elegant solutions to complex problems. With over 2 years of experience in web development, I've had the privilege of working with talented teams on diverse projects ranging from startups to enterprise applications.
               </p>
               <p>
-                My journey in tech began with a curiosity about how things work. I taught myself to code, and that passion has only grown stronger over the years. I believe in writing clean, maintainable code and continuously learning new technologies.
+                I am a new grad for York University with a degree in Information Technology. During my time at university, I developed a strong foundation in algorithms, data structures, and software engineering principles. I also had the opportunity to work on several projects that allowed me to apply my skills in real-world scenarios.
               </p>
               <p>
                 Outside of coding, I enjoy contributing to open-source projects, writing technical blogs, and mentoring junior developers. I'm always open to collaborating on interesting projects and solving meaningful problems.
@@ -100,7 +100,7 @@ export default function About() {
             <div className="timeline-item">
               <div className="timeline-marker"></div>
               <div className="timeline-body">
-                <h3>Senior Designer</h3>
+                <h3>Software Designer</h3>
                 <p className="company">Nexeya Canada (2021 - Present)</p>
                 <p>Worked with the application engineering group and the customer service group to verify test program functionality. Working with application enginerring group to devlop an mobile and desktop application for our clients. Built a calendar app to all for people to track there travels and days off</p>
               </div>
