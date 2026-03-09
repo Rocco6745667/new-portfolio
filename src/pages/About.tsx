@@ -101,7 +101,7 @@ export default function About() {
               <div className="timeline-marker"></div>
               <div className="timeline-body">
                 <h3>Software Designer</h3>
-                <p className="company">Nexeya Canada (2021 - Present)</p>
+                <p className="company">Nexeya Canada (2025 - Present)</p>
                 <p>Worked with the application engineering group and the customer service group to verify test program functionality. Working with application enginerring group to devlop an mobile and desktop application for our clients. Built a calendar app to all for people to track there travels and days off</p>
               </div>
             </div>
